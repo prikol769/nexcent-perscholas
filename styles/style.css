@@ -47,6 +47,11 @@ button {
   font-size: 14px;
 }
 
+.primary-btn:hover {
+  background-color: #3b863d;
+  transition: 0.5s;
+}
+
 /* header */
 
 .header {
