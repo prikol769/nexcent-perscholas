@@ -11,6 +11,7 @@ html {
   width: 100%;
   height: 100%;
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 
 ul,
@@ -67,6 +68,10 @@ button {
 /* header */
 
 .header {
+  z-index: 10;
+  position: sticky;
+  background-color: #f5f7fa;
+  top: 0;
   display: flex;
   justify-content: space-between;
   max-width: 2000px;
@@ -114,6 +119,7 @@ button {
 .hero-section {
   background-color: #f5f7fa;
   height: 100vh;
+  margin-top: -84px;
 }
 
 .hero-content {
