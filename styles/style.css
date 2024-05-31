@@ -330,3 +330,101 @@ textarea {
   height: 100px;
   font-family: "Montserrat", sans-serif;
 }
+
+/* footer */
+
+.footer {
+  background-color: #263238;
+  padding: 64px 165px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-text p {
+  color: #f5f7fa;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.socials {
+  display: flex;
+  gap: 16px;
+}
+
+.links-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.links-container div:last-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.links-container-column {
+  display: grid;
+  color: #fff;
+}
+
+.links-container-column p {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.links-container-column a {
+  font-size: 14px;
+  line-height: 20px;
+  color: #f5f7fa;
+  width: fit-content;
+}
+.links-container-column a:hover {
+  color: #4caf4f;
+}
+
+.footer-input {
+  color: #d9dbe1;
+  height: 40px;
+  width: 255px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 12px;
+  background-color: #515b60;
+}
+
+.footer-input::placeholder {
+  color: #d9dbe1;
+}
+
+.footer-input-wrapper {
+  position: relative;
+}
+
+.footer-input-btn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-input-btn:hover {
+  top: -1px;
+  transition: 1s;
+}
