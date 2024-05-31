@@ -37,6 +37,18 @@ button {
   outline: none;
 }
 
+.section-title {
+  color: #4d4d4d;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.section-subTitle {
+  color: #18191f;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .primary-btn {
   background-color: #4caf4f;
   color: #fff;
@@ -129,4 +141,147 @@ button {
 .hero-subTitle {
   color: #717171;
   margin: 16px 0 32px 0;
+}
+
+/* our-clients */
+
+.our-clients {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: #fff;
+  text-align: center;
+  padding: 40px 144px;
+}
+
+.our-clients-subTitle {
+  margin: 8px 0 24px 0;
+}
+
+.our-clients-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.manage-system-title {
+  margin: 0 auto;
+}
+
+.manage-system-subTitle {
+  margin: 8px 0 24px 0;
+}
+
+.manage-system-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.manage-system-card {
+  max-width: 263px;
+}
+
+.manage-system-card-title {
+  color: #4d4d4d;
+  font-size: 28px;
+  line-height: 36px;
+  margin: 16px 0 8px 0;
+}
+
+.manage-system-card-text {
+  color: #717171;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* free-consultation */
+
+.free-consultation {
+  background-color: #f5f7fa;
+  padding: 40px 144px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.free-consultation-title {
+  margin-bottom: 16px;
+}
+
+.free-consultation-title > span {
+  color: #4caf4f;
+}
+
+.free-consultation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.free-consultation-form label {
+  color: #18191f;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: -6px;
+}
+
+.free-consultation-form input {
+  height: 34px;
+  border-color: #4caf4f;
+  outline: none;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 2px 6px;
+}
+
+.free-consultation-form select {
+  height: 34px;
+  border-color: #4caf4f;
+  outline: none;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 2px 6px;
+}
+
+.prices {
+  padding: 40px 144px;
+}
+
+.prices-title {
+  text-align: center;
+}
+
+.prices-table {
+  text-align: center;
+  max-width: 1400px;
+  margin: 24px auto 0 auto;
+}
+
+.prices-table td {
+  padding: 16px;
+}
+
+.prices-table tr:first-child {
+  font-size: 20px;
+  height: 45px;
+}
+
+.prices-table tr > td:first-child {
+  text-align: left;
+}
+
+.prices-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.prices-table tr:first-child:hover {
+  background-color: transparent;
+}
+
+.prices-table tr:hover {
+  background-color: #4caf4f;
 }
