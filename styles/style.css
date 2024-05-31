@@ -230,8 +230,9 @@ button {
 }
 
 .free-consultation-form input {
-  height: 34px;
-  border-color: #4caf4f;
+  height: 40px;
+  width: 300px;
+  border: none;
   outline: none;
   font-size: 16px;
   border-radius: 6px;
@@ -239,13 +240,17 @@ button {
 }
 
 .free-consultation-form select {
-  height: 34px;
+  height: 40px;
+  width: 300px;
   border-color: #4caf4f;
   outline: none;
+  border: none;
   font-size: 16px;
   border-radius: 6px;
   padding: 2px 6px;
 }
+
+/* prices section */
 
 .prices {
   padding: 40px 144px;
@@ -284,4 +289,44 @@ button {
 
 .prices-table tr:hover {
   background-color: #4caf4f;
+}
+
+/* contact section */
+
+.contact-wrapper {
+  padding: 40px 144px;
+  background-color: #f5f7fa;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 60px;
+}
+
+.contact-form input,
+textarea {
+  border: 0px solid;
+  outline: none;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 2px 16px;
+}
+
+.contact-form input {
+  height: 46px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-form textarea {
+  height: 100px;
+  font-family: "Montserrat", sans-serif;
 }
