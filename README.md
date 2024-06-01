@@ -16,11 +16,9 @@
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 
-## 🚨 Tutorial
-
 ## <a name="introduction">🤖 Introduction</a>
 
-Welcome to my Nexcent websit. Where to grow your business as a photographer: site or social media? Landing website with About and Privacy policy pages.
+Welcome to my Nexcent website. Where to grow your business as a photographer: site or social media? Landing website with About and Privacy policy pages.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
