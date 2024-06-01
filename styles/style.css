@@ -474,3 +474,19 @@ textarea {
   top: -1px;
   transition: 1s;
 }
+
+/* about */
+
+.about {
+  padding: 100px 144px;
+}
+
+.about > h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.about > p {
+  font-size: 16px;
+  line-height: 24px;
+}
